@@ -8,7 +8,7 @@ import peasy.*;
 //Sketch parameters
 int fwidth = 1920;
 int fheight = 1080;
-float skecthScale = 0.75;
+float skecthScale = 0.5;
 
 PeasyCam cam;
 

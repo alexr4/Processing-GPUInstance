@@ -8,9 +8,9 @@ GL4 gl;
 
 VBOInterleaved vbo;
 
-int w = 1280;
-int h = 720;
-float s = 1.0;
+int w = 1920;
+int h = 1080;
+float s = 0.75;
 
 PVector[] square = {
   new PVector(-1.0, -1.0, 1.0), 
@@ -53,7 +53,8 @@ void settings() {
 
 void setup() {
   frameRate(300);
-
+  surface.setLocation(0, -1080);
+  
   vbo = new VBOInterleaved(this);
   vbo.initVBO(g, indices.length);
   updateGeometry(vbo);

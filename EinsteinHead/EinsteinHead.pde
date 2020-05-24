@@ -14,9 +14,9 @@ GL4 gl;
 PShape model;
 VBOInterleaved vbo;
 
-int w = 1280;
-int h = 720;
-float s = 1.0;
+int w = 1920;
+int h = 1080;
+float s = 0.75;
 
 
 
